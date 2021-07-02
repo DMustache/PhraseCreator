@@ -4,10 +4,9 @@ This is a Bot that has been migrated from a closed repository. Now this bot is w
 ## Getting Started
 
 ### Installing
-I use [vurtualvenv](https://docs.python.org/3/library/venv.html) with my Python 3.9.5
+I use my Python 3.9.5
 You should install [aiogram](https://github.com/aiogram/aiogram) by using his command:
 ```sh
-python -m venv ##Activate venv!!!
 pip install aiogram
 pip install apiai
 ```

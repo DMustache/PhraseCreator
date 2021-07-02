@@ -1,13 +1,11 @@
-#!venv/Scripts/python
-
 from random import randint
 from aiogram import Dispatcher, Bot
 from aiogram.utils import executor
 from aiogram import types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-import sys, logging, apiai, json
-sys.path.insert(0, 'Telegram/PhraseCreator')
+import sys, logging, json
+sys.path.insert(0, './')
 import generator #All ok
 
 model = generator.train('data\data.txt')
