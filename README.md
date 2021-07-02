@@ -9,6 +9,7 @@ You should install [aiogram](https://github.com/aiogram/aiogram) by using his co
 ```sh
 python -m venv ##Activate venv!!!
 pip install aiogram
+pip install apiai
 ```
 Yup! You ready to use my bot in your project!!!
 
