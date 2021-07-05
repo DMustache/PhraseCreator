@@ -1,4 +1,3 @@
-#!venv/Scripts/python
 import re
 from random import randint, uniform
 from collections import defaultdict
